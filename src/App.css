@@ -1,0 +1,99 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+}
+
+.name {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.socialLinks {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff; /* Text color */
+  padding: 10px 15px; /* Padding for the button */
+  border-radius: 5px; /* Border radius for rounded corners */
+  background-color: #007BFF; /* Background color for the button */
+  display: inline-block; /* Display as inline-block to be side by side */
+  margin: 10px; /* Margin between buttons */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+.interestsHeader {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.interestsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interestItem {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input Box Styling */
+.inputBox {
+  width: 100%; /* Full width */
+  padding: 10px 15px; /* Padding inside the input box */
+  margin-bottom: 15px; /* Spacing below the input box */
+  border: 1px solid #ddd; /* Border style */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 16px; /* Font size inside the input box */
+  color: #333; /* Text color */
+  background-color: #f8f9fa; /* Background color */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  box-sizing: border-box; /* Ensure padding doesn't affect total width */
+}
+
+/* Input Form Styling */
+.inputForm {
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  max-width: 400px; /* Maximum width for the form */
+  margin: 0 auto 20px; /* Center the form and add bottom margin */
+  padding: 20px; /* Padding inside the form */
+  background-color: #fff; /* Background color for the form */
+  border: 1px solid #ddd; /* Border style */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for form container */
+}
+
+.inputForm_button {
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  background-color: #007BFF; /* Button background color */
+  color: #fff; /* Button text color */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Cursor style on hover */
+  margin-top: 10px; /* Space above the button */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.inputForm_button:hover {
+  background-color: #0056b3; /* Darker background on hover */
+}
+
